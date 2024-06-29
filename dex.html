@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Signup</h1><br>
+                <p>It will just take 30 seconds</p>
+            </header>
+            <main class="signup-body">
+                <form id="signup-form">
+                    <p>
+                        <label for="fullname">Fullname</label>
+                        <input type="text" id="fullname" placeholder="Parag Lakum" required>
+                    </p>
+                    <p>
+                        <label for="Email">Your Email</label>
+                        <input type="email" id="email" placeholder="lakumparag@gmail.com" required>
+                    </p>
+                    <p>
+                        <label for="Your Password">Your New Password</label>
+                        <button id="hide-password" class="hide-password-btn"><i class="fa-regular fa-eye"></i></button>
+                        <input type="password" id="password" placeholder="at least 8 charecter" required>
+                        
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Create account" required>
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>
+                    Already have an account?<a href="#">Login</a>
+                </p>
+                <p>
+                    <a href="#" class="social-login-btn">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="social-login-btn">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </p>
+            </footer>
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
